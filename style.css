@@ -463,6 +463,12 @@ header .container {
     transform: translateX(5px);
 }
 
+.match-card .match-score {
+    font-weight: bold;
+    color: var(--accent-color);
+    margin: 0 5px;
+}
+
 /* Content Pages General Styling (Activities, Football, Members, Contact) */
 #content-page {
     padding: 4rem 0;
@@ -998,6 +1004,10 @@ footer p {
     .news-item .attachment-link {
         font-size: 0.85rem;
     }
+
+    .match-card .match-score {
+        font-size: 1.2rem;
+    }
 }
 
 @media (max-width: 480px) {
@@ -1088,6 +1098,10 @@ footer p {
 
     .news-item .attachment-link {
         font-size: 0.8rem;
+    }
+
+    .match-card .match-score {
+        font-size: 1rem;
     }
 }
 

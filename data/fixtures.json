@@ -4,7 +4,7 @@
       "date": "July 10, 2025",
       "opponent": "Sugnu FC",
       "tournament": "Friendly Match",
-      "venue": "Thongjao Village Playfield",
+      "venue": "Thongjao Village Playground",
       "time": "3:00 PM IST"
     },
     {
@@ -15,18 +15,26 @@
       "time": "4:00 PM IST"
     },
     {
-      "date": "July 20, 2025",
+      "date": "June 6, 2025",
       "opponent": "Lamjao FC",
       "tournament": "Friendly Match",
-      "venue": "Thongjao Village Playfield",
-      "time": "2:00 PM IST"
+      "venue": "Thongjao Village Playground",
+      "time": "2:00 PM IST",
+      "goals": {
+        "thongjao": 0,
+        "opponent": 0
+      }
     },
     {
-      "date": "July 25, 2025",
+      "date": "June 14, 2025",
       "opponent": "Waikhong FC",
-      "tournament": "Friendly Match",
-      "venue": "Thongjao Village Playfield",
-      "time": "2:00 PM IST"
+      "tournament": "Village Tournament",
+      "venue": "Elangkhanpokpi Playground",
+      "time": "2:00 PM IST",
+      "goals": {
+        "thongjao": 1,
+        "opponent": 0
+      }
     }
   ]
 }

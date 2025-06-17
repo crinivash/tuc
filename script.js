@@ -49,12 +49,19 @@ document.addEventListener('DOMContentLoaded', () => {
     // Function to render fixtures
     function renderFixtures(fixtures, container) {
         container.innerHTML = ''; // Clear existing content
+        const today = new Date();
         fixtures.forEach(fixture => {
             const matchCard = document.createElement('div');
             matchCard.className = 'match-card';
+            const fixtureDate = new Date(fixture.date);
+            const isPastMatch = fixtureDate < today;
+            let matchTitle = `Thongjao FC vs. ${fixture.opponent}`;
+            if (isPastMatch && fixture.goals && typeof fixture.goals.thongjao === 'number' && typeof fixture.goals.opponent === 'number') {
+                matchTitle = `Thongjao FC <span class="match-score">${fixture.goals.thongjao} - ${fixture.goals.opponent}</span> ${fixture.opponent}`;
+            }
             matchCard.innerHTML = `
                 <div class="match-date"><i class="fas fa-calendar-alt"></i> ${fixture.date}</div>
-                <h4>Thongjao FC vs. ${fixture.opponent}</h4>
+                <h4>${matchTitle}</h4>
                 <p><strong>Tournament:</strong> ${fixture.tournament}</p>
                 <p><strong>Venue:</strong> ${fixture.venue}</p>
                 <p><strong>Time:</strong> ${fixture.time}</p>
