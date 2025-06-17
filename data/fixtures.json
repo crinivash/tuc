@@ -34,14 +34,14 @@
       "goals": {
         "thongjao": 1,
         "opponent": 0
-      },
-      {
+      }
+    },
+    {
       "date": "July 19, 2025",
       "opponent": "Real Madrid",
       "tournament": "Friendly Match",
       "venue": "Thongjao Village Playground",
       "time": "3:00 PM IST"
-    }
     }
   ]
 }
