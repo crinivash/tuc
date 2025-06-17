@@ -1,0 +1,38 @@
+{
+  "notices": [
+    {
+      "title": "New Members Appointed to Thongjao Union Club",
+      "date": "June 3, 2025",
+      "content": "The Thongjao Union Club is pleased to announce the appointment of new members to our executive committee. These individuals bring a wealth of experience and enthusiasm to our club, and we look forward to their contributions in the coming year. Join us in welcoming them!",
+      "link": "#",
+      "linkText": "Read More",
+      "attachments": [
+        {
+          "name": "New members appointed",
+          "url": "attachments/tuc-notice.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Thongjao FC Gears Up for [Tournament Name]!",
+      "date": "May 28, 2025",
+      "content": "Our formidable football team, Thongjao FC, is excited to announce its participation in the highly anticipated [Tournament Name], kicking off on [Date] at [Venue]. Preparations are in full swing, and the team is more motivated than ever. Your cheers make a difference!",
+      "link": "football.html",
+      "linkText": "View Schedule",
+      "attachments": []
+    },
+    {
+      "title": "Youth Skill Workshop on Digital Literacy Announced!",
+      "date": "May 20, 2025",
+      "content": "The Thongjao Union Club is pleased to announce a free Digital Literacy Workshop for village youth, starting [Date]. Learn essential computer and internet skills to open new opportunities. Limited seats available, register soon!",
+      "link": "contact.html",
+      "linkText": "Learn More & Register",
+      "attachments": [
+        {
+          "name": "Workshop Poster",
+          "url": "attachments/workshop-poster.jpg"
+        }
+      ]
+    }
+  ]
+}
